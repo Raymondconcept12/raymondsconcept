@@ -1,0 +1,1010 @@
+body{
+    background: linear-gradient( rgb(0, 0, 0, 0.685)50%, rgb(0, 0, 0, 0.685)50%), url(desktop-wallpaper-web-development.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.firstdiv{
+    background-color: #00308F;
+    border-radius: 500px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    margin-left: 40px;
+    font-size: large;
+    color: yellow;
+}
+
+.name h2{
+    font-family:  Times, ;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold ;
+    transition: 0.2s;
+}
+
+.navbar ul li a:hover{
+    color: yellow;
+}
+
+
+
+.fa-bars{
+   color: white;
+   transition: 0.3s; 
+}
+
+.navbar a.icon {
+    display: none;
+    
+}
+
+.fa-bars:hover{
+   color: rgb(77, 77, 77); 
+}
+
+
+ #toggler,
+.navbar label{
+    display: none;
+} 
+
+
+.intro h2{
+    display: flex;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.intro button {
+        padding: 15px 30px;
+        font-size: 18px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        transition: 0.5s;
+        background: #00308F;
+        color: greenyellow;
+        box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+      }
+      
+      button:hover {
+        animation: a 0.5s 1 linear;
+      }
+      
+      @keyframes a {
+        0% {
+          transform: scale(0.7, 1.3);
+        }
+      
+        25% {
+          transform: scale(1.3, 0.7);
+        }
+      
+        50% {
+          transform: scale(0.7, 1.3);
+        }
+      
+        75% {
+          transform: scale(1.3, 0.7);
+        }
+      
+        100% {
+          transform: scale(1, 1);
+        }
+      }
+
+
+.intro{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro button a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: yellow;
+    transition: 0.5s;
+}
+
+.intro button a:hover{
+    color: white;
+}
+
+.second-div img{
+    float: right ;
+    margin-right: 90px;
+    margin-top: 28px;
+    transition: 0.5s;
+}
+
+.second-div img:hover{
+    transform: scale(100%);
+}
+
+.intro p{
+    display: flex;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.third-div{
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    color: black;
+    font-family: sans-serif;
+    padding-bottom: 25px;
+    height: 380px;
+}
+
+.third-div h2{
+    text-align: center;
+    font-family: sans-serif ;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.third-div p{
+    font-size: 22px;
+    margin-left: 300px;
+}
+
+.fa-user{
+    color: #00308F;
+    float: left;
+    margin-left: 30px;
+}
+
+.btn{
+    padding: 17px 20px;
+    background-color: yellow;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 52px;
+    border-radius: 20px;
+}
+
+
+.btn:hover{
+    background-color: yellow98;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #00308F;
+}
+
+.btn a:hover{
+    color: black;
+}
+
+.fourth-div{
+    background-color: #00308F;
+    height: 820px;
+}
+
+.fourth-div h2{
+    text-align: center;
+    font-family:  sans-serif ;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+    padding: 25px;
+    color: yellow;
+}
+
+.fourth-div h3{
+    text-align: center;
+    font-family:  sans-serif ;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+    color: #ffffff;
+}
+
+.skill1{
+    max-width: 250px;
+    height: 340px;
+    display: flex;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.952); */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-color: yellow;
+}
+
+.skill2{
+    max-width: 250px;
+    height: 340px;
+    display: flex;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.952); */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-color: yellow;
+}
+
+.skill3{
+    max-width: 250px;
+    height: 340px;
+    display: flex;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.952); */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-color: yellow;
+}
+
+.fa-desktop{
+    color: yellow;
+    margin-top: 12px;
+}
+
+.fa-globe{
+    color: yellow;
+    margin-top: 12px;
+}
+
+.fa-camera{
+    color: yellow;
+    margin-top: 12px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill1 h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.skill2 h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.skill3 h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.skill1 p{
+    text-align: start  ;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.skill2 p{
+    text-align: start ;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.skill3 p{
+    text-align: start ;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-size: 12.5px;
+}
+
+.html-card{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    box-shadow: 0px 4px 8px #00000094; 
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+
+}
+
+.html-card:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.html-card h4{
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.html-card img{
+    margin-left: 8px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-content: center;
+    padding: 10px 15px;
+}
+
+.Front-End{
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-color: yellow;
+    margin-left: 60px;
+    max-width: fit-content ;
+}
+
+.Front-End p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+.fifth-div{
+    background-color: black;
+    height: 260px;
+    font-family: sans-serif;
+    align-items: center;
+
+}
+
+.contact{
+    margin-top: 0px;
+    padding-top: 80px;
+    margin-left: 200px;
+}
+
+.contact h2{
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: yellow;
+}
+
+.last-div{
+    display: flex;
+    flex-direction: row ;
+}
+
+.quick-link{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.quick-link h2{
+    font-size: 18px;
+    color: yellow;
+}
+
+.quick-link h3{
+    font-size: 15px;
+}
+
+.quick-link a{
+    text-decoration: none;
+    color: white;
+}
+
+.quick-link a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+.get-in{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.get-in h2{
+    font-size: 18px;
+    color: yellow;
+}
+
+.get-in h3{
+    font-size: 15px;
+}
+
+.get-in h3 span{
+    font-size: 16px;
+    font-family: sans-serif;
+    
+}
+
+.done{
+    text-align: center;
+    font-size: 15px ;
+    border-top: 1px solid;
+}
+
+.fa-instagram{
+    color: white;
+}
+
+
+.fa-twitter{
+    color: white;
+}
+
+.fa-whatsapp{
+    color: white;
+}
+
+.fa-phone{
+    color: white;
+}
+
+.fa-whatsapp:hover{
+    color:#00308F;
+    transition: 0.5s;
+}
+.fa-instagram:hover{
+    color:#00308F;
+    transition: 0.5s;
+}
+.fa-phone:hover{
+    color:#00308F;
+    transition: 0.5s;
+}
+.fa-twitter:hover{
+    color:#00308F;
+    transition: 0.5s;
+}
+
+.fa-arrow-up{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 145px;
+    color: yellow;
+}
+
+.project-img{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 68px;
+    margin-top: 15px;
+}
+
+.project-img2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 68px;
+    padding-top: 15px;
+}
+
+.project-img3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 15px;
+    
+}
+
+.project111{
+    background-color: #202020ea;
+}
+
+
+.project1 img {
+    transition: 0.5s;
+}
+
+.project2 img {
+    transition: 0.5s;
+}
+.project3 img {
+    transition: 0.5s;
+}
+.project4 img {
+    transition: 0.5s;
+}
+.project5 img {
+    transition: 0.5s;
+}
+.project6 img {
+    transition: 0.5s;
+}
+.project7 img {
+    transition: 0.5s;
+}
+.project8 img {
+    transition: 0.5s;
+}
+.project9 img {
+    transition: 0.5s;
+}
+.project10 img {
+    transition: 0.5s;
+}
+.project11 img {
+    transition: 0.5s;
+}
+.project12 img {
+    transition: 0.5s;
+}
+
+.project1 img:hover{
+    background-color: yellow;
+    transform:scale(110%);
+}
+.project2 img:hover{
+    background-color: yellow;
+    transform:scale(110%);
+}
+.project3 img:hover{
+    background-color: yellow;
+    transform:scale(110%);
+}
+.project4 img:hover{
+    background-color: yellow;
+    transform:scale(110%);
+}
+.project5 img:hover{
+    background-color: yellow;
+    transform:scale(110%);
+}
+.project6 img:hover{
+    background-color: yellow;
+    transform:scale(110%);
+}
+.project7 img:hover{
+    background-color: yellow;
+    transform:scale(110%);
+}
+.project8 img:hover{
+    background-color: yellow;
+    transform:scale(110%);
+}
+.project9 img:hover{
+    background-color: yellow;
+    transform:scale(110%);
+}
+.project10 img:hover{
+    background-color: yellow;
+    transform:scale(110%);
+}
+.project11 img:hover{
+    background-color: yellow;
+    transform:scale(110%);
+}
+.project12 img:hover{
+    background-color: yellow;
+    transform:scale(110%);
+}
+
+
+.message{
+    text-align: center;
+}
+
+.message input{
+    padding: 10px 15px;
+    border: none;
+    font-family: sans-serif;
+    color: black;
+    border-radius: 5px;
+    
+}
+
+.input2{
+    padding-top: 10px;
+}
+
+.input2 input{
+    padding: 15px 20px;
+}
+
+.submit{
+    padding-top: 10px;
+    
+}
+
+.submit input{
+    background-color: #00308F;
+    color: yellow;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: 2s;
+}
+
+
+.submit input:hover{
+    color: white;
+    padding: 15px 20px;
+}
+
+
+
+
+
+
+
+    @media screen and (max-width: 900px) { 
+       .navbar{
+           width: 100%;
+           height: 0;
+           overflow: hidden;
+           display: flex;
+        flex-direction: column;
+       }
+
+      .navbar #myLink{
+        display: flex;
+        flex-direction: column;
+
+        
+       }
+
+
+       .navbar a.icon {
+        display: block;
+        position: absolute;
+        right: 45px;
+        top: 35px;
+      }
+    
+       .name{
+           font-size: 15px;
+           
+       }
+    
+       .navbar ul{
+           flex-direction: column;
+           
+           padding: 20px;
+           display: block;
+       }
+       
+    
+       .fa-bars{
+           display: inline-flex;
+           align-items: center;
+           cursor: pointer;
+           
+       }
+       
+       .firstdiv{
+        width: 394px;
+       }
+    
+       .second-div{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+       }
+
+       .second-div img{
+        float: right ;
+        margin-right: 20px;
+        margin-top: 28px;
+    }
+
+    .third-div{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        height: 900px;
+    }
+
+    .third-div p{
+        margin-left: 15px;
+    }
+       
+    .third-div h2{
+        font-size: 38px;
+    }
+
+    .third-div button{
+        margin-right: 50px;
+    }
+
+    .fa-user{
+        margin-left: 0px;
+    }
+
+    .skill{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fourth-div{
+        background-color: #00308F;
+        height: 2000px;
+    }
+
+    .skill1{
+        max-width: 250px;
+        height: 340px;
+        display: flex;
+        /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.952); */
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border: 1px solid;
+        border-color: yellow;
+    }
+    
+   .tools h2{
+    font-size: 30px;
+   }
+
+
+   .Front-End{
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-color: yellow;
+    margin-left: 43px;
+    max-width: 300px ;
+}
+
+.Front-End p{
+    text-align: start;
+    margin-left: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: center;
+    padding: 10px 15px;
+}
+
+.last-div{
+    display: flex;
+    flex-direction: column ;
+}
+
+.contact{
+    margin-top: 0px;
+    padding-top: 80px;
+    margin-left: 30px;
+    
+}
+
+.contact h2{
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: yellow;
+}
+
+.fifth-div{
+    background-color: black;
+    height: 550px;
+    font-family: sans-serif;
+    align-items: center;
+
+}
+
+.get-in{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.quick-link{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+    
+       
+         .navbar ul li a{
+           display: block;
+           position: absolute ;
+           top: 38px;
+           right: 60px;
+           font-size: 30px;
+           gap: 60px;
+       }
+       
+
+            .project-img{
+                display: flex;
+                flex-direction: column;
+                margin-left: 100px;
+            }
+
+            .project-img2{
+                display: flex;
+                flex-direction: column;
+                margin-left: 100px;
+            }
+
+            .project-img3{
+                display: flex;
+                flex-direction: column;
+                margin-left: 100px;
+            }
+
+            .project1 img {
+                transition: 0.5s;
+            }
+            .project2 img {
+                transition: 0.5s;
+            }
+            .project3 img {
+                transition: 0.5s;
+            }
+            .project4 img {
+                transition: 0.5s;
+            }
+            .project5 img {
+                transition: 0.5s;
+            }
+            .project6 img {
+                transition: 0.5s;
+            }
+            .project7 img {
+                transition: 0.5s;
+            }
+            .project8 img {
+                transition: 0.5s;
+            }
+            .project9 img {
+                transition: 0.5s;
+            }
+            .project10 img {
+                transition: 0.5s;
+            }
+            .project11 img {
+                transition: 0.5s;
+            }
+            .project12 img {
+                transition: 0.5s;
+            }
+            
+            .project1 img:hover{
+                background-color: yellow;
+                transform:scale(110%);
+            }
+            .project2 img:hover{
+                background-color: yellow;
+                transform:scale(110%);
+            }
+            .project3 img:hover{
+                background-color: yellow;
+                transform:scale(110%);
+            }
+            .project4 img:hover{
+                background-color: yellow;
+                transform:scale(110%);
+            }
+            .project5 img:hover{
+                background-color: yellow;
+                transform:scale(110%);
+            }
+            .project6 img:hover{
+                background-color: yellow;
+                transform:scale(110%);
+            }
+            .project7 img:hover{
+                background-color: yellow;
+                transform:scale(110%);
+            }
+            .project8 img:hover{
+                background-color: yellow;
+                transform:scale(110%);
+            }
+            .project9 img:hover{
+                background-color: yellow;
+                transform:scale(110%);
+            }
+            .project10 img:hover{
+                background-color: yellow;
+                transform:scale(110%);
+            }
+            .project11 img:hover{
+                background-color: yellow;
+                transform:scale(110%);
+            }
+            .project12 img:hover{
+                background-color: yellow;
+                transform:scale(110%);
+            }
+            
+               
+
+
+            .message{
+                text-align: center;
+            }
+            
+            .message input{
+                padding: 15px 20px;
+                border: none;
+                font-family: sans-serif;
+                color: black;
+                border-radius: 5px;
+                gap: 30px;
+                
+            }
+            
+            .input2{
+                padding-top: 10px;
+            }
+            
+            .input2 input{
+                padding: 15px 20px;
+            }
+            
+            .submit{
+                padding-top: 10px;
+                
+            }
+            
+            .submit input{
+                background-color: #00308F;
+                color: yellow;
+                font-family: sans-serif;
+                cursor: pointer;
+                transition: 2s;
+            }
+            
+            
+            .submit input:hover{
+                color: white;
+                padding: 15px 20px;
+            }
+            
+            
+       
+    } 
